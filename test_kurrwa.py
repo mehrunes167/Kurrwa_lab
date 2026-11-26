@@ -1,6 +1,6 @@
 import pytest
 
-from kurrwa import tokenize, readInput, calculate
+from kurrwa import calculate, readInput, tokenize
 
 
 @pytest.mark.parametrize("expr,expected", [
